@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wh-2-video-banner-client-side-solution",
+    "id": "8c903a6a-f8eb-4879-9340-8128fafd50a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "wh2-video-banner description"
+      },
+      "longDescription": {
+        "default": "wh2-video-banner description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "wh-2-video-banner Feature",
+        "description": "The feature that activates elements of the wh-2-video-banner solution.",
+        "id": "e7e90a7c-2b0c-44e1-9a39-b5cf2a48baf7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/wh-2-video-banner.sppkg"
+  }
+}

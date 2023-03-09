@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "93e50f33-49fc-4cb6-b53a-4e9be2628e44",
+  "alias": "VideoBannerWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Workhub" },
+      "title": { "default": "WH2 VideoBanner" },
+      "description": {
+        "default": "Web Part to display banner video background with text on top."
+      },
+      "iconImageUrl": "https://whstorage1.blob.core.windows.net/brand/wpIcons/WebPart20_Icone.png",
+      "properties": {
+        "wpTitle": "SharePoint Community Rocks",
+        "videoUrl": "https://sharepoint-thoughts.com/wp-content/uploads/2021/04/Deal.mp4",
+        "height": 200,
+        "brightness": 70,
+        "color": "#d1d1f2"
+      }
+    }
+  ]
+}
